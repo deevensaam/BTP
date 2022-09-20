@@ -1,3 +1,2 @@
-# LUNG NODULE DETECTION OF CT SCAN IMAGES
+# LUNG NODULE DETECTION OF X-Ray SCAN IMAGES
 
-Hai my name is btp and our project is saam
