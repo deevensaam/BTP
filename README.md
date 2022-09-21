@@ -1,6 +1,6 @@
 # LUNG NODULE DETECTION FOR X-RAY IMAGES
 
-Download Dataset from - https://docs.google.com/document/d/15JXfssgl5GCoCfWnUaipSf3-abgWu69Z6e4e197VAjE/edit?usp=sharing
+Download Dataset from - https://drive.google.com/drive/folders/198cVd8Evb3lQIkN-3rm-0cm0OTZOE6uB?usp=sharing
 
 Dataset contains two folders , Normal dataset and Abnormal dataset.
 
