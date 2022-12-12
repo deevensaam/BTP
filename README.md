@@ -29,6 +29,9 @@ Finally, We’ve then implemented this Scale-Space Blob Detection using the Down
 
 ### How to Run our Project
 >  Unzip this folder and run the each cell for the files B22PS01_BTP_Final and Best_Parameters_B22PS01 (This is for the Classfication and Detection using JSRT dataset).
->  If you wanna run for kaggle dataset then download the dataset from (https://drive.google.com/drive/folders/130SQPuNvnrYYDZa-CYzugBmIQykoUAZV?usp=share_link) and hit "python SVM_KNN_CNN_MidReview.py" 
 
+>  If you wanna run for kaggle dataset then download the dataset from starting mentioned link and hit 
+"python SVM_KNN_CNN_MidReview.py" 
+
+> After this user interface will be appeared then in 'upload lung cancer dataset' button, upload features folder. For traing and splitting the data we've used 80:20 %, later on excute SVM, KNN and CNN for the classification. Hence you can predict the output.
 
