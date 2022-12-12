@@ -1,6 +1,7 @@
 # Lung Nodule Detection in Chest X-RAY Images using Machine Learning and Deep learning approaches.
 
-Dataset- https://www.kaggle.com/datasets/raddar/nodules-in-chest-xrays-jsrt
+JSRT Dataset- https://www.kaggle.com/datasets/raddar/nodules-in-chest-xrays-jsrt
+Kaggle Dataset - https://drive.google.com/drive/folders/130SQPuNvnrYYDZa-CYzugBmIQykoUAZV?usp=share_link
 
 ### About the Dataset:
 In this dataset there are total of 247 X-ray images, in which males and females X-ray images are available. The ratio of males and females are as follows: Females - 52% and Males - 48% . Regular chest X-Ray images without any diseases are 93 X-ray images in total, from JPCNN001 to JPCNN093. For the uneven X-Ray scans images with lung nodules and its various types 154 X-ray images in total, from JPCLN001 to JPCLN154. 
@@ -27,7 +28,7 @@ We’ve then implemented this Scale-Space Blob Detection using the Increase filt
 Finally, We’ve then implemented this Scale-Space Blob Detection using the Down Sample Method for detecting the lung nodule at a particular position. The steps involved in this are Ensuring odd filter size, Initializing filter matrix, Obtaining filter (no normalization needed). Scaling the image- Down scale, Applying convolution without normalization, Upscaling the image and Updating the sigma value. We’ve used two methods to set the pixels’ values of a maxima pixel to zero, they are rank filter and generic filter method. A matrix mask of certain dimension (must be equal to or greater than (3x3) is used with this function and non-maxima pixels are set to 0 on every scale of the scale-space array. 
 
 ### How to Run our Project
->  Unzip this folder and run the each cell for the files B22PS01_BTP_Final and Best_Parameters_B22PS01 (This is for the Classfication and Detection using JSRT dataset)
->  If you wanna run kaggle dataset the "python SVM_KNN_CNN_MidReview.py"
+>  Unzip this folder and run the each cell for the files B22PS01_BTP_Final and Best_Parameters_B22PS01 (This is for the Classfication and Detection using JSRT dataset).
+>  If you wanna run for kaggle dataset then download the dataset from (https://drive.google.com/drive/folders/130SQPuNvnrYYDZa-CYzugBmIQykoUAZV?usp=share_link) and hit "python SVM_KNN_CNN_MidReview.py" 
 
 
