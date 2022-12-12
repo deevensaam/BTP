@@ -26,7 +26,8 @@ We’ve then implemented this Scale-Space Blob Detection using the Increase filt
 > Scale-Space Blob Detection using Down Sample Method:
 Finally, We’ve then implemented this Scale-Space Blob Detection using the Down Sample Method for detecting the lung nodule at a particular position. The steps involved in this are Ensuring odd filter size, Initializing filter matrix, Obtaining filter (no normalization needed). Scaling the image- Down scale, Applying convolution without normalization, Upscaling the image and Updating the sigma value. We’ve used two methods to set the pixels’ values of a maxima pixel to zero, they are rank filter and generic filter method. A matrix mask of certain dimension (must be equal to or greater than (3x3) is used with this function and non-maxima pixels are set to 0 on every scale of the scale-space array. 
 
-
-
+### How to Run our Project
+>  Unzip this folder and run the each cell for the files B22PS01_BTP_Final and Best_Parameters_B22PS01 (This is for the Classfication and Detection using JSRT dataset)
+>  If you wanna run kaggle dataset the "python SVM_KNN_CNN_MidReview.py"
 
 
