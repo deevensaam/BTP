@@ -35,3 +35,22 @@ Finally, We’ve then implemented this Scale-Space Blob Detection using the Down
 
 > After this user interface will be appeared then in 'upload lung cancer dataset' button, upload features folder. For traing and splitting the data we've used 80:20 %, later on excute SVM, KNN and CNN for the classification. Hence you can predict the output.
 
+
+### Experimental Results for Classification
+Accuracy for Kaggle Dataset
+* SVM (Support Vector Machine) is 0.71
+* KNN (K - Nearest Neighbours) is 0.53
+* CNN (Convolution Neural Network) is 0.85
+
+
+Accuracy for JSRT Dataset
+* SVM (Support Vector Machine) is 0.60 
+* KNN (K - Nearest Neighbours) is 0.52
+* CNN (Convolution Neural Network) is 0.6232
+* MLP (Multi Layer Perceptron) is 0.68
+
+
+
+### Experimental Results for Detection
+
+
